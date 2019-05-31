@@ -1,0 +1,11 @@
+2019/05/30 15:29:57 [error] 39987#0: *1 "/Users/paraskevasapostolopoulos/workspace/work-interviews/nginx-px/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2019/05/30 15:32:16 [error] 39987#0: *2 "/Users/paraskevasapostolopoulos/workspace/work-interviews/nginx-px/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2019/05/30 16:06:17 [error] 39987#0: *3 "/Users/paraskevasapostolopoulos/workspace/work-interviews/nginx-px/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2019/05/30 16:06:24 [emerg] 40296#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2019/05/30 16:06:24 [emerg] 40296#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2019/05/30 16:06:24 [emerg] 40296#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2019/05/30 16:06:24 [emerg] 40296#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2019/05/30 16:06:24 [emerg] 40296#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2019/05/30 16:06:24 [emerg] 40296#0: still could not bind()
+2019/05/30 16:06:29 [error] 39987#0: *4 "/Users/paraskevasapostolopoulos/workspace/work-interviews/nginx-px/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2019/05/30 16:07:44 [error] 39987#0: *6 open() "/Users/paraskevasapostolopoulos/workspace/work-interviews/nginx-px/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"

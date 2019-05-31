@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello PerimeterX</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript">
+        (function(){
+            window._pxAppId = 'PX76izEHCP';
+            // Custom parameters
+            // window._pxParam1 = "<param1>";
+            var p = document.getElementsByTagName('script')[0],
+                s = document.createElement('script');
+            s.async = 1;
+            s.src = '//client.perimeterx.net/PX76izEHCP/main.min.js';
+            p.parentNode.insertBefore(s,p);
+        }());
+    </script>
+    <noscript>
+        <div style="position:fixed; top:0; left:0; display:none" width="1" height="1">
+            <img src="//collector-PX76izEHCP.perimeterx.net/api/v1/collector/noScript.gif?appId=PX76izEHCP" alt="PxPixel">
+        </div>
+    </noscript>
+  </head>
+  <body>
+    <header></header>
+    <main id="main">
+      <h1>Welcome to an ugly looking page</h1>
+      <p>You are looking at a page created by Paris Apostolopoulos.</p>
+      <p>These are the things that I did for the PerimeterX challenge</p>
+      <ul>
+        <li v-for="point in points">{{ point.description }}</li>
+      </ul>
+    </main>
+  </body>
+  <script>
+    let app = new Vue({
+      el: "#main",
+      data: {
+        points: [
+          { description: "Installed the nginx server in Digital Ocean" },
+          { description: "Modified the nginx.conf file so that it properly serves this static page." },
+          { description: "Updated all dependencies and installed additional dependencies (Lua, LuaJIT)." },
+          { description: "Set configurations for resolver, Lua package path, CA Certificates, Timer Initialization" },
+          { description: "Added appId, auth_token and cookie_secret in ​pxconfig.lua​" },
+          { description: "Enabled parameters in ​pxconfig.lua as per the instructions. (captcha_enabled param manually entered)​" },
+          { description: "Add snippet in single page (this page)​" },
+
+        ]
+      }
+    });
+  </script>
+</html>
